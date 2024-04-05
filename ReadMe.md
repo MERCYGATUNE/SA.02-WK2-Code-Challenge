@@ -34,7 +34,7 @@ JAVASCRIPT
 Github
 
 ## SUPPORT AND CONTACT DETAILS
-You can find me at ariri691@gmail.com
+You can find me at ariri691@gmail.com .
 
 ## LICENSE 
 The content of this site is licensed under the MIT license Copyright (c) 2024
