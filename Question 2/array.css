@@ -1,0 +1,13 @@
+html {
+    background-color: #fff685;
+}
+h1 { 
+   font-weight: bolder;
+}
+label {
+     background-color: white;
+}
+button {
+    background-color: whitesmoke;
+    color: orange;
+}
