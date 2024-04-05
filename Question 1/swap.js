@@ -3,7 +3,7 @@
  
 function swapCase( string) {
 let swapString ='';
-
+// ITERATE THROUGH THE STRING
 for ( let i=0;i<string.length;i++ ) {
 let currentChar = string[i];
 
@@ -17,7 +17,7 @@ swapString +=currentChar.toLowerCase();
  }
   return swapString;
 }
-
+// A FUNCTION TO SWAP CASE OF STRING AND DISPLAY GENERATED STRING
  function swapCaseandDisplay(){
 
  const inputText=document.getElementById('textInput').value;

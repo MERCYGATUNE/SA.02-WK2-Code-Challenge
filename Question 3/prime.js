@@ -5,10 +5,10 @@ function isPrime(num) {
   if(num<=1){
      return false;
   }
-    // Iterate through each element
+    // Iterate through each number
 
     for(let i = 2; i <=Math.sqrt( num); i++) {
-        // Check if elements in array contain prime
+        // Check if numbers in array contain prime
       if(num% i === 0) {
         
         return false;
@@ -16,11 +16,11 @@ function isPrime(num) {
     }
     return true;
   }
-
+// A FUNCTION TO FILTER PRIME NUMBERS
 function filterPrimes(numbers) {
   return numbers.filter(num => isPrime(num));
 }
-
+// A FUNCTION TO FILTER AND DISPLAY PRIME NUMBERS
 function filterAndDisplay() {
   const inputString = document.getElementById('numbersInput').value;
   const numbers = inputString.split(',').map(num => parseInt(num.trim()));
