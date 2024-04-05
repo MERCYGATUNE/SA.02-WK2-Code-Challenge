@@ -29,6 +29,7 @@ Git clone git@github.com:MERCYGATUNE/SA.02-WK2-Code-Challenge.git
 
 ## TECHNOLOGIES USED
 HTML
+CSS
 JAVASCRIPT
 Github
 
